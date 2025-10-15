@@ -10,5 +10,5 @@ export function printSupplies() {
 }
 
 // Print supplies
-bold();
+bold("These are the supplies!");
 printSupplies();
