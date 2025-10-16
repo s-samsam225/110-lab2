@@ -1,6 +1,7 @@
 
 import {bold} from "./animation";
-export const snacks: string[] = ["chips","cookies","muffins","trail mix","fruit cups","candy"];
+const snacks: string[] = ["chips","cookies","muffins","trail mix","fruit cups","candy","strawberries","cheetos","brownies"];
+
 export function printSnacks(): void { 
    for(const snack of snacks) {
 	console.log(`- ${snack}`);
@@ -8,5 +9,6 @@ export function printSnacks(): void {
    }
 }
 
-bold();
+
+bold("Yum!");
 printSnacks();
