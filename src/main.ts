@@ -1,6 +1,6 @@
 // Import print function
-import {printSupplies} from './supplies.ts';
-import {printSnacks} from './snacks.ts';
+import {printSupplies} from './supplies';
+import {printSnacks} from './snacks';
 
 function main (): void {
     // Print supplies
