@@ -1,5 +1,5 @@
 // Import feature function
-import {bold} from './animation.ts';
+import {bold} from './animation';
 
 // Define array of supplies
 const supplies = ["cups", "plates", "streamers", "table", "chairs"];
